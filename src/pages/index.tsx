@@ -119,7 +119,6 @@ export const getStaticProps: GetStaticProps = async () => {
       },
     };
   });
-  //console.log(JSON.stringify(posts, null, 2));
 
   const postsPagination = {
     next_page: postsResponse.next_page,
